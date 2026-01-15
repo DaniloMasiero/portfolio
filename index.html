@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo Masiero - Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #0d1117;
+        }
+        
+        .container {
+            background-color: #161b22;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+        }
+        
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            margin-bottom: 0px;
+        }
+        
+        h1 {
+            color: #79c0ff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #f0f6fc;
+            font-size: 1.2em;
+            margin-bottom: 0px;
+        }
+        
+        h2 {
+            color: #f0f6fc;
+            border-bottom: 2px solid #58a6ff;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        
+        .about-section {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            list-style: none;
+            margin-bottom: 10px;
+        }
+        
+        .skills-grid li {
+            background-color: #21262d;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #58a6ff;
+        }
+        
+        .skills-grid strong {
+            color: #f0f6fc;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item {
+            margin-bottom: 10px;
+            padding: 20px;
+            background-color: #21262d;
+            border-radius: 5px;
+            border-left: 4px solid #3fb950;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        
+        .role-period {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 5px;
+        }
+        
+        .experience-item .company {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #f0f6fc;
+        }
+        
+        .experience-item .industry {
+            color: #8b949e;
+            font-size: 0.9em;
+            text-align: right;
+        }
+        
+        .experience-item .role {
+            font-weight: bold;
+            color: #8b949e;
+        }
+        
+        .experience-item .period {
+            color: #8b949e;
+            font-size: 0.9em;
+        }
+        
+        .project-list {
+            list-style: none;
+        }
+        
+        .project-list li {
+            padding: 20px;
+            margin-bottom: 15px;
+            background-color: #21262d;
+            border-radius: 5px;
+            border-left: 4px solid #f85149;
+        }
+        
+        .project-list strong {
+            color: #f0f6fc;
+            font-size: 1.1em;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .contact-links a:hover {
+            color: #79c0ff;
+            text-decoration: underline;
+        }
+        
+        .contact-icon {
+            font-size: 1.2em;
+            color: #f0f6fc;
+            width: 25px;
+            text-align: center;
+        }
+        
+        .section-icon {
+            margin-right: 10px;
+            color: #58a6ff;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Danilo Masiero</h1>
+            <p class="subtitle">Data Scientist | Located in Brazil</p> 
+        </header>
+
+        <section>
+            <h2></i>Skills</h2>
+            <ul class="skills-grid">
+                <li>
+                    <i class="fa-solid fa-laptop-code section-icon"></i><strong>Programming Languages</strong>
+                    <p>Python, SQL</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-signal section-icon"></i><strong>Data Visualization</strong>
+                    <p>Power BI, Looker, Streamlit</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-database section-icon"></i><strong>Databases</strong>
+                    <p>SQLite, SQL Server</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear section-icon"></i></i><strong>Software Engineering</strong>
+                    <p>Git</p>
+                </li>
+
+
+            </ul>
+        </section>
+
+        <section>
+            <h2></i>Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Comunidade DS</div>
+                    <div class="industry">Education - Remote, Brazil</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Data Scientist</div>
+                    <div class="period">2025 - Present</div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Mars</div>
+                    <div class="industry">Food Industry - Guararema, Brazil</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Senior Industrial Engineering Analyst</div>
+                    <div class="period">2025 - Present</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Industrial Engineering Analyst</div>
+                    <div class="period">2024 - 2025</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Industrial Engineering Assistant</div>
+                    <div class="period">2023 - 2024</div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Workana</div>
+                    <div class="industry">SaaS - Remote, Brazil</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Business Intelligence Freelancer</div>
+                    <div class="period">2023</div>
+                </div>
+                
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company">Lett</div>
+                    <div class="industry">SaaS - Remote, Brazil</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Financial Planning Analyst</div>
+                    <div class="period">2022 - 2023</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Business Intelligence Analyst</div>
+                    <div class="period">2022</div>
+                </div>
+                <div class="role-period">
+                    <div class="role">Human Resources Intern</div>
+                    <div class="period">2021 - 2022</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2></i>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <strong>Coming Soon</strong>
+                    <p>Data science and analytics projects will be added here.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2></i>Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:danilomls3@gmail.com">
+                    <i class="fa-solid fa-envelope contact-icon"></i>
+                    danilomls3@gmail.com
+                </a>
+                <a href="https://github.com/DaniloMasiero" target="_blank">
+                    <i class="fa-brands fa-github contact-icon"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/danilo-masiero/" target="_blank">
+                    <i class="fa-brands fa-linkedin contact-icon"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
