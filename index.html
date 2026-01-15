@@ -134,19 +134,67 @@
         
         .project-list {
             list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
         
         .project-list li {
-            padding: 20px;
-            margin-bottom: 15px;
+            padding: 0;
+            margin-bottom: 20px;
             background-color: #21262d;
             border-radius: 5px;
             border-left: 4px solid #f85149;
+            overflow: hidden;
+        }
+        
+        .project-content {
+            padding: 20px;
         }
         
         .project-list strong {
             color: #f0f6fc;
-            font-size: 1.1em;
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .project-list p {
+            color: #8b949e;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .project-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #238636;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+        
+        .project-button:hover {
+            background-color: #2ea043;
+        }
+        
+        .project-button i {
+            margin-right: 8px;
+        }
+        
+        .project-image {
+            width: 100%;
+            display: block;
+            border-bottom: 1px solid #30363d;
+        }
+        
+        .project-placeholder {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 2.5em;
+            opacity: 0.3;
         }
         
         .contact-links {
@@ -297,9 +345,29 @@
             <h2></i>Projects</h2>
             <ul class="project-list">
                 <li>
-                    <strong>Coming Soon</strong>
-                    <p>Data science and analytics projects will be added here.</p>
+                    <img src="images/project_1_ftc_python.png" alt="Growth Analysis" class="project-image">
+                    <div class="project-content">
+                        <h3>Food Delivery Marketplace Analytics Dashboard</h3>
+                        <p>Executive analytics dashboard tracking 45K+ delivery operations across India, providing actionable insights for C-level decision-making across operations, restaurants, and delivery driver performance.</p>
+                        <a href="https://github.com/DaniloMasiero/Cury_Company_Project" target="_blank" class="project-button">
+                            <i class="fa-brands fa-github"></i>Learn More
+                        </a>
+                    </div>
                 </li>
+                
+                <!--
+                <li>
+                    <img src="images/project2.png" alt="Projeto 2" class="project-image">
+                    <div class="project-content">
+                        <strong>Nome do Projeto 2</strong>
+                        <p>Descrição breve do projeto</p>
+                        <a href="https://github.com/DaniloMasiero/projeto-2" target="_blank" class="project-button">
+                            <i class="fa-brands fa-github"></i>Learn More
+                        </a>
+                    </div>
+                </li>-->
+                
+                <!-- Adicione mais 2 projetos seguindo o mesmo padrão -->
             </ul>
         </section>
 
